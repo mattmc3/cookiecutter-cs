@@ -1,0 +1,8 @@
+<Solution>
+  <Folder Name="/src/">
+    <Project Path="src/{{ cookiecutter.project_name }}/{{ cookiecutter.project_name }}.csproj" />
+  </Folder>
+  <Folder Name="/tests/">
+    <Project Path="tests/{{ cookiecutter.project_name }}.Tests/{{ cookiecutter.project_name }}.Tests.csproj" />
+  </Folder>
+</Solution>
